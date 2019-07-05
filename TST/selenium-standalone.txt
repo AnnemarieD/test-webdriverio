@@ -1,0 +1,12 @@
+19:28:25.439 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome"
+}
+19:28:25.442 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 7299
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1562088507.244][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+[1562088507.302][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+19:28:27.672 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+19:28:28.679 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 0ab65851a19b4c6d724059f97c4ebf47 (org.openqa.selenium.chrome.ChromeDriverService)
+19:28:34.047 INFO [ActiveSessions$1.onStop] - Removing session 0ab65851a19b4c6d724059f97c4ebf47 (org.openqa.selenium.chrome.ChromeDriverService)

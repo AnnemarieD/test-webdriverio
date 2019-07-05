@@ -1,0 +1,29 @@
+{
+  "name": "end-2-end-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mirabeau",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "eslint \"**/*.js\"",
+    "prepush": "eslint \"**/*.js\"",
+    "install-local": "selenium-standalone install --config=./selenium-standalone-version-config.js",
+    "test": "wdio wdio-config-local.js",
+    "test-remote": "wdio wdio-config-remote.js",
+    "pretest": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "@wdio/browserstack-service": "^5.10.8",
+    "@wdio/cli": "^5.10.9",
+    "dotenv": "^8.0.0",
+    "eslint": "^6.0.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.10.9",
+    "@wdio/mocha-framework": "^5.10.8",
+    "@wdio/selenium-standalone-service": "^5.9.3",
+    "@wdio/spec-reporter": "^5.9.3",
+    "@wdio/sync": "^5.10.8",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
